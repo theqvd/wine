@@ -662,6 +662,7 @@
 @ stdcall SetDeskWallPaper(str)
 # @ stub SetDeskWallpaper
 # @ stub SetDesktopBitmap
+@ stdcall SetDisplayAutoRotationPreferences(long)
 @ stdcall SetDlgItemInt(long long long long)
 @ stdcall SetDlgItemTextA(long long str)
 @ stdcall SetDlgItemTextW(long long wstr)

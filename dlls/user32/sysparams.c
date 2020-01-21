@@ -4299,6 +4299,16 @@ BOOL WINAPI GetDisplayAutoRotationPreferences( ORIENTATION_PREFERENCE *orientati
     return TRUE;
 }
 
+/**********************************************************************
+ *              SetDisplayAutoRotationPreferences [USER32.@]
+ */
+BOOL WINAPI SetDisplayAutoRotationPreferences( ORIENTATION_PREFERENCE orientation )
+{
+    FIXME("(%i): stub\n", orientation);
+    return TRUE;
+}
+
+
 /* physical<->logical mapping functions from win8 that are nops in later versions */
 
 /***********************************************************************
